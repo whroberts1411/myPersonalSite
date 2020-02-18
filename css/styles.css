@@ -1,0 +1,59 @@
+body {
+  background-color: #fce2db;
+  /* background-image: url('Images/dormouse.png');
+            background-repeat: no-repeat;
+            background-size: 75% 50%;
+            background-position-x: center;
+            background-position-y: bottom; */
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: rgb(241, 198, 133);
+  border-width: 7px;
+  width: 10%;
+}
+
+/* Apply styling by element id to override the main <hr> style */
+#redLine {
+  border-style: solid;
+  border-color: rgb(228, 139, 6);
+  border-width: 2px;
+  width: 100%;
+}
+/* -------------------- Styles for various heading sizes ---------------------- */
+h1 {
+  color: #84142d;
+  text-shadow: 3px 2px rgb(241, 198, 133);
+  font-style: italic;
+}
+
+/* This one is the same colour as the page background */
+h2 {
+  color: #fce2db;
+
+}
+
+h3 {
+  color: #84142d;
+}
+/* -------------------- Styles for other elements, by class identifier --------- */
+.astro {
+  border-radius: 100%;
+}
+
+.button:hover{
+  background-color: yellow;
+  color: red;
+}
+
+.table1 {
+  border-radius: 10%;
+  border-spacing: 10px;
+}
+
+.table1:hover
+{
+  background-color: rgba(88, 66, 3, 0.726);
+}
+/* ---------------------------------------------------------------------------- */
