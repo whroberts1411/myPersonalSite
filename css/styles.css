@@ -1,10 +1,12 @@
 body {
   background-color: #fce2db;
-  /* background-image: url('Images/dormouse.png');
-            background-repeat: no-repeat;
-            background-size: 75% 50%;
-            background-position-x: center;
-            background-position-y: bottom; */
+  /* NB - need to specify the relative path to the image, as this css file
+          will be run from the css folder, not the site's root folder.  */
+  background-image: url("../Images/WebBackground.svg");
+  background-repeat: no-repeat;
+  background-size: cover; /* for svg images, expands to fill the window?? */
+  background-position-x: center;
+  background-position-y: top;
 }
 
 hr {
@@ -30,8 +32,7 @@ h1 {
 
 /* This one is the same colour as the page background */
 h2 {
-  color: #fce2db;
-
+  color: #D5FFE6;
 }
 
 h3 {
@@ -42,7 +43,7 @@ h3 {
   border-radius: 100%;
 }
 
-.button:hover{
+.button:hover {
   background-color: yellow;
   color: red;
 }
@@ -52,8 +53,7 @@ h3 {
   border-spacing: 10px;
 }
 
-.table1:hover
-{
+.table1:hover {
   background-color: rgba(88, 66, 3, 0.726);
 }
 /* ---------------------------------------------------------------------------- */
